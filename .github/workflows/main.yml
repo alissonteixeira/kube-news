@@ -23,6 +23,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             alissonteixeira2805/live-kube-news:v1
             alissonteixeira2805/live-kube-news:latest
